@@ -1,150 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Game Links</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background:  #f0f4ff;
-      display: flex;
-      justify-content: center;
-      padding-top: 2rem;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Links</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f4ff;
+            display: flex;
+            justify-content: center;
+            padding-top: 2rem;
+        }
 
-    .container {
-      background: white;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      background: rgba(0,0,0,0.5);;
-      max-width: 500px;
-      width: 90%;
-    }
+        .container {
+            background: white;
+            padding: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            background: rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 80%;
+        }
 
-    h1 {
-      text-align: center;
-      color: #eee;
-      margin-bottom: 2rem;
-    }
+        h1 {
+            text-align: center;
+            color: #eee;
+            margin-bottom: 2rem;
+        }
 
-    .app-block {
-      margin-bottom: 2rem;
-    }
+        .app-block {
+            margin-bottom: 2rem;
+        }
 
-    .app-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #222;
-      margin-bottom: 1rem;
-    }
+        .app-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 1rem;
+        }
 
-    
-    .app-header {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 1rem;
-    }
 
-    .app-header img {
-        width: 48px;
-        height: 48px;
-        border-radius: 12px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
 
-    .store-links {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
+        .app-header img {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
 
-    .store-links a img {
-      height: 50px;
-      transition: transform 0.2s ease;
-    }
+        .store-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
 
-    .store-links a img:hover {
-      transform: scale(1.05);
-    }
+        .store-links a img {
+            height: 50px;
+            transition: transform 0.2s ease;
+        }
 
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #eee;
-      margin-top: 2rem;
-    }
+        .store-links a img:hover {
+            transform: scale(1.05);
+        }
 
-    .game-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  margin-bottom: 2rem;
-  transition: transform 0.2s ease;
-}
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #eee;
+            margin-top: 2rem;
+        }
 
-.game-card:hover {
-  transform: translateY(-4px);
-}
+        .game-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+            transition: transform 0.2s ease;
+        }
 
-.app-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
+        .game-card:hover {
+            transform: translateY(-4px);
+        }
 
-.app-header img {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
 
-  </style>
+        .app-header img {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Links to the Games</h1>
+    <div class="container">
+        <h1>Links to the Games</h1>
 
-    <div class="game-card">
-        <div class="app-header">
-          <img src="Sudoku.webp" alt="Sudoku Icon">
-          <span class="app-title">Amazing Sudoku!</span>
+        <div class="game-card">
+            <div class="app-header">
+                <img src="Sudoku.webp" alt="Sudoku Icon">
+                <span class="app-title">Amazing Sudoku!</span>
+            </div>
+            <div class="store-links">
+                <a href="https://apps.apple.com/us/app/amazing-sudoku/id6741170292?platform=iphone" target="_blank">
+                    <img src="AppStore.JPG" alt="Download on the App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.kusmani.Sudoku" target="_blank">
+                    <img src="PlayStore.JPG" alt="Get it on Google Play">
+                </a>
+            </div>
         </div>
-        <div class="store-links">
-          <a href="https://apps.apple.com/us/app/amazing-sudoku/id6741170292?platform=iphone" target="_blank">
-            <img src="AppStore.JPG" alt="Download on the App Store">
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.kusmani.Sudoku" target="_blank">
-            <img src="PlayStore.JPG" alt="Get it on Google Play">
-          </a>
-        </div>
-      </div>
-      
-      <div class="game-card">
-        <div class="app-header">
-          <img src="SlidingPuzzle.webp" alt="Sliding Puzzle Icon">
-          <span class="app-title">Amazing Sliding Puzzle!</span>
-        </div>
-        <div class="store-links">
-          <a href="https://apps.apple.com/us/app/amazing-sliding-puzzle/id6742160880?platform=iphone" target="_blank">
-            <img src="AppStore.JPG" alt="Download on the App Store">
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.kusmani.SlidingPuzzle" target="_blank">
-            <img src="PlayStore.JPG" alt="Get it on Google Play">
-          </a>
-        </div>
-      </div>
 
-    <footer>
-      &copy; 2025 Amazohaas
-    </footer>
-  </div>
+        <div class="game-card">
+            <div class="app-header">
+                <img src="SlidingPuzzle.webp" alt="Sliding Puzzle Icon">
+                <span class="app-title">Amazing Sliding Puzzle!</span>
+            </div>
+            <div class="store-links">
+                <a href="https://apps.apple.com/us/app/amazing-sliding-puzzle/id6742160880?platform=iphone"
+                    target="_blank">
+                    <img src="AppStore.JPG" alt="Download on the App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.kusmani.SlidingPuzzle" target="_blank">
+                    <img src="PlayStore.JPG" alt="Get it on Google Play">
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2025 Amazohaas
+        </footer>
+    </div>
 </body>
+
 </html>
